@@ -10,7 +10,7 @@ public class Main {
         
         Class.forName("com.mysql.cj.jdbc.Driver");//loading the driver
         String url="jdbc:mysql://localhost:3306/reservationSystem";//mysql database 
-        String name="root",password="@Smehekkelaskar1";
+        String name="root",password="***********";
        Connection connection= DriverManager.getConnection(url,name,password);//connection is establishing with the database.
         
         System.out.println("Hotel Management System");
